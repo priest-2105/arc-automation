@@ -707,7 +707,3 @@
     right: -1%;
     width: 89%;
 }
-
-git branch -M main
-git remote add origin https://github.com/priest-2105/arc-automation.git
-git push -u origin main
