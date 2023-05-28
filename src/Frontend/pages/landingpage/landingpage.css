@@ -1,0 +1,696 @@
+.welcome-tab-container{
+    height: 800px;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+
+.welcome-tab{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    background-color: transparent;
+    background-color: #5d91f0;
+background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, #f6e5dc 70%, #f08c61 88%, #cd4376 100%);
+}
+
+
+
+.left-welcome-tab{
+    width: 45%;
+    height: 100%;
+    padding: 80px 0px 0px 50px;
+    
+}
+
+.left-welcome-tab p{
+   font-size: 55px;
+   margin-top: 20%;
+   width: 80%;
+   font-weight: 700;
+   padding-bottom: 50px;
+}
+
+
+.left-welcome-tab a{
+    padding: 10px 30px 15px 30px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+  
+  }
+  
+  .left-welcome-tab a:hover{
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  color: black;
+  background-color: aliceblue;
+  }
+  
+
+
+.right-welcome-tab{
+    width: 55%; 
+    height: 100%;
+    position: relative;
+}
+
+.right-welcome-tab-container{
+    position: relative;
+}
+
+
+.right-welcome-tab img{
+    position: absolute;
+}
+
+.desktop-chart{
+    bottom: 15%;
+    height: 550px;
+    width: 640px;
+}
+
+.mobile-chart{
+    left: 70%;
+    bottom:3%;
+    height: 450px;
+    width: 200px;
+}
+
+
+
+/* landing page steps  */
+
+.landing-page-steps{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 180px 80px 80px 80px;
+    justify-content: space-between;
+    height: 700px;
+    display: flex;
+    width: 100%;
+}
+
+
+.step-card-container{    
+    position: relative;
+    background-image: linear-gradient( #cc78f0 35%, #5d91f0 75%, #f08c61 88%, #cd4376 100%);
+    padding: 5px 5px 5px 5px;
+    width: fit-content;
+    border-radius: 20px;
+
+}
+
+
+.step-card{
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    height: 250px;
+    width: 400px;
+
+}
+
+.step-number{
+    font-weight: 900;
+    font-size: 60px;
+    color: rgb(0, 0, 0,0.4);
+    line-height: 35px;
+}
+.step-card-container:hover + h6{ color: rgb(0, 0, 0);   }
+
+
+
+.step-card h6{
+   color: rgba(205, 67, 118,0.7) 100%;
+}
+
+
+.step-1{
+    width: fit-content;
+}.step-2{
+    width: fit-content;
+}.step-3{
+    width: fit-content;
+}
+/* end of steps section  */
+
+
+
+
+
+
+/* how it works section  */
+
+
+.how-it-works{
+    /* position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 150px 80px 80px;
+    justify-content: space-around;
+    height:fit-content;
+     background-color:  #EFEFEF;
+     text-align: center;
+    
+}
+
+.how-it-works-steps{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    display: flex; 
+    
+}
+
+
+.how-it-works-header {
+    padding-bottom: 80px;
+}
+
+.how-it-works-header p{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ 
+.how-it-works-step-card-container{    
+    margin-left: auto;
+    justify-content: center;
+   margin-right: auto;
+    border-top: 4px solid #000;
+    border-left: 3px solid #000;
+    border-right: 3px solid #000;
+    width: fit-content;
+}
+
+
+.how-it-works-step-card{ 
+    padding-top: 20px; 
+    background-color: #ffffff;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+.how-it-works-step-card h2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%,  #5d91f0 27%, #f08c61  70%, #f08c61 88%, #cd4376 100%);
+    width: 50px;
+    height: 45px;
+} 
+
+.how-it-works-step-1 h6{
+   text-align: center; 
+   margin-right: auto;
+   margin-left: 40px;
+    width: 250px;
+    height: fit-content;
+}
+
+.how-it-works-step-2 h6{
+    text-align: center; 
+    margin-right: auto;
+    margin-left: 40px;
+     width: 250px;
+     height: fit-content;
+ }
+
+
+ .how-it-works-step-3 h6{
+    text-align: center; 
+    margin-right: auto;
+    margin-left: 40px;
+     width: 250px;
+     height: fit-content;
+ }
+ 
+
+
+/* end of how we work section   */
+
+
+
+.what-people-are-saying{
+    height: fit-content;
+    background-image: linear-gradient(125deg, #cc78f0 12%, #5d91f0 40%,  #85abf3 47%, #f08c61  60%, #da561d 78%, #cd4376 100%);
+    padding:80px 80px 80px 80px;
+}
+
+.what-people-are-saying-header{
+  text-align: center;
+  padding-bottom: 80px;
+  color: #eae2ee;
+}
+
+.what-people-are-saying-first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-people-are-saying-second-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-people-are-saying-card{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    height: 300px;
+    border: 1px solid rgb(255, 255, 255,0.6);
+    padding:  50px 10px 40px 10px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    color: #eae2ee;
+}
+
+
+.what-people-are-saying-card p{
+    margin-top: 5%;
+    font-size: larger;
+}
+.what-people-are-saying-card h6{
+    margin-top:4%;
+    margin-left: 10px;
+}
+
+.what-people-are-saying-card img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+    
+
+
+
+
+            /* fAq section  */
+
+.faq-header-card{
+    background-color: #F08C61;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    color: #eae2ee;
+    padding: 20px 20px 20px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+    
+.faq-header-card h5{
+
+    margin-top: 3%;
+
+}
+
+.accordion{
+    background-color:  #EFEFEF;
+}
+
+.accordion-header{border-top: 2px solid white;
+    padding-bottom: 20px;
+}
+.accordion-header button{
+    width: 100%;
+    border-left:none;
+    border-right: none;
+    border-bottom: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    /* text-align: end; */
+    padding-left: 50px;
+    background-color: transparent;
+}
+
+.accordion-header i{
+    
+    color: #da561d;
+}
+
+
+.accordion-button:not(.collapsed)::after {
+    content: "-";
+    font-size: 50px;
+    /* margin-top: 50px; */
+    color: orange;
+  }
+  
+  .accordion-button.collapsed::after {
+    content:"+";
+    font-size: 25px;
+    font-weight: 900;
+    color: orange;
+  }
+
+  .accordion-button i{
+   margin-left: 80%;
+   font-size: 25px;
+   font-weight: 900;
+  }
+
+  .accordion-button.collapsed .bi-dash-lg{
+    display: none;
+  }
+
+  
+  .accordion-button:not(.collapsed) .bi-plus-lg{
+    display: none;
+  }
+
+
+  .accordion-button:not(.collapsed) {
+    border: none;
+  }
+  
+  .accordion-icon{
+    transform: rotate(0deg);
+    color: #5d91f0;
+
+}
+.accordion-button::after {
+    display: none;
+  } 
+
+
+
+            /* end of faq section  */
+
+
+                    /* Responsiveness for widths unders 991px */
+@media only screen and (max-width: 991px ){
+
+    .welcome-tab{
+    display: flex;
+    flex-direction: column-reverse;   
+    }
+
+    .left-welcome-tab{
+        width: 100%; 
+    }
+
+    .left-welcome-tab p{
+        /* margin-top: 70px; */
+        font-size: 30px;
+        font-weight: 600;
+        width: 90%;
+        padding-bottom:0px ;
+     }
+
+
+     
+    .left-welcome-tab a{
+       margin-bottom: 70px;
+    }
+     
+
+    .desktop-chart{
+        top: 30%;
+        height: 400px;
+        width: 500px;
+        left: 20%;
+    }
+    
+    .mobile-chart{
+        left: 5%;
+        top: 85%;
+        height: 250px;
+        width: 100px;
+    }
+
+    .landing-page-steps{
+        display: block;
+    }
+
+    .step-card-container{    
+      margin-bottom: 50px;
+    }
+
+    .how-it-works{
+        display: block;
+        position: relative;
+        margin-top: 550px;
+        padding-bottom: 300px;
+     }
+
+    .how-it-works-steps{
+       display: block;
+    }
+    .how-it-works-step-1{
+        margin-bottom: 100px;
+        justify-content: center;
+        text-align: center;
+    }.how-it-works-step-2{        
+        margin-bottom: 100px;
+        justify-content: center;
+        text-align: center;
+    }.how-it-works-step-3{        
+        margin-bottom: 100px;
+        justify-content: center;
+        text-align: center;
+
+    }
+    
+    .what-people-are-saying-first-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .what-people-are-saying-second-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+    /* Responsiveness for widths under 420px */
+    @media only screen and (max-width: 420px ){
+
+                
+        .welcome-tab{
+            display: flex;
+            height: 550px;
+            width: 100%;}
+
+        .left-welcome-tab p{
+            margin-top: 0px;
+            font-size: 25px;
+            font-weight: 900;
+            padding-bottom: 0px;
+            width: 90%;
+         }
+         
+         .right-welcome-tab{
+            width: 55%; 
+            height: 100%;
+        }
+        
+    
+        .desktop-chart{
+            top: 50%;
+            margin-left: 70px;
+            height: 150px;
+            width: 100%;
+            left: 15%;
+        }
+        
+        .mobile-chart{
+            left: 26%;
+            top:63%;
+            height: 150px;
+            width: 50px;
+        }
+                
+        .landing-page-steps{
+            padding: 0px 0px 0px 0px;
+            height:fit-content;
+            display: block;
+            width: 100%;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+
+        .step-card-container{   
+            margin-left: auto;
+            margin-right: auto; 
+            position: relative;
+            background-image: linear-gradient( #cc78f0 35%, #5d91f0 75%, #f08c61 88%, #cd4376 100%);
+            padding: 5px 5px 5px 5px;
+            width: fit-content;
+            border-radius: 20px;
+
+        }
+
+
+        .step-card{
+            margin-left: auto;
+            margin-right: auto;          
+            padding: 10px 10px 10px 10px;
+            border-radius: 15px;
+            background-color: #ffffff;
+            height: fit-content;
+            width: 270px;
+
+        }
+
+        .step-number{
+            font-weight: 900;
+            font-size: 60px;
+            color: rgb(0, 0, 0,0.4);
+            line-height: 35px;
+        }
+        .step-card-container:hover + h6{ color: rgb(0, 0, 0);   }
+
+
+
+        .step-card h6{
+        color: rgba(205, 67, 118,0.7) 100%;
+        }
+
+
+        .step-1{
+            width: fit-content;
+        }.step-2{
+            width: fit-content;
+        }.step-3{
+            width: fit-content;
+        }
+        /* end of steps sectio */
+        
+
+
+        /* how it works section  */
+
+
+        .how-it-works{
+            display: block;
+            padding: 80px 0px 80px 0px;
+            position: relative;
+            margin-top: 50px; 
+         }
+     
+
+            .how-it-works-header {
+                padding-bottom: 80px;
+            }
+
+            .how-it-works-header p{
+                max-width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+    
+
+            .how-it-works-step-card{ 
+                padding-top: 20px; 
+                background-color: #ffffff;
+                height: 80px;
+                width: 80px;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .how-it-works-step-card h2{
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%,  #5d91f0 27%, #f08c61  70%, #f08c61 88%, #cd4376 100%);
+                width: 50px;
+                height: 45px;
+            } 
+
+            .how-it-works-step-1 h6{
+            text-align: center; 
+            margin-right: auto;
+            margin-left: 60px;
+                width: 250px;
+                height: fit-content;
+            }
+
+            .how-it-works-step-2 h6{
+                text-align: center; 
+                margin-right: auto;
+                margin-left: 60px;
+                width: 250px;
+                height: fit-content;
+            }
+
+
+            .how-it-works-step-3 h6{
+                text-align: center; 
+                margin-right: auto;
+                margin-left: 60px;
+                width: 250px;
+                height: fit-content;
+            }
+            
+
+
+            /* end of how we work section   */
+    
+
+
+                    
+            .what-people-are-saying{
+                height: 100%;
+                background-image: linear-gradient(125deg, #cc78f0 12%, #5d91f0 40%,  #85abf3 47%, #f08c61  60%, #da561d 78%, #cd4376 100%);
+                padding:80px 10px 80px 5px;
+            }
+
+
+
+
+            /* fAq section  */
+                            
+            .accordion-button i{
+            margin-left: 40%;
+            }
+
+
+            /* end of faq section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    
+    
+    
+    

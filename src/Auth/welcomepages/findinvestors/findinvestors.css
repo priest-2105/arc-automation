@@ -1,0 +1,161 @@
+.investor{
+    border: 4px solid #5D91F0;
+    height:fit-content;
+    width: fit-content;
+    max-width:1000px;
+    display: block;
+    margin-top: 100px;
+    padding: 20px 40px 50px 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+.investor label{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.investor input{
+    border: 3px solid #5D91F0;
+    padding-left: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: block;
+    color: #5D91F0;
+    font-size: 20px;
+    width: 70%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.investor input:active{
+    border: 4px solid #5D91F0; 
+}
+
+.investor input:hover{
+    border: 4px solid #5D91F0; 
+}
+
+.investor input[value]{
+    color: #5D91F0;
+}
+
+.investor h6{
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 140px;
+}
+
+
+.investor input::placeholder{ 
+    font-size: 20px;
+    color: #5D91F0;
+}
+
+
+
+
+.investor-type{ 
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    margin-bottom: 100px; 
+     margin-left: auto;
+     margin-right: auto;
+    justify-content: space-around;
+  }
+ 
+
+  .investor-type-each{
+    background-color: #5D91F0;
+     margin-left: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    width: 200px;
+    height: 120px;
+
+  }
+
+
+  .auth-politician{
+    background-image: url('/UI-ASSETS/images/findinvestors/politicians.jpeg');
+    background-position: center;
+  }
+
+  .auth-senator{
+    background-image: url('/UI-ASSETS/images/findinvestors/senator.jpeg');
+    background-position: center;
+  }
+
+  .auth-hedgefunds{
+    background-image: url('/UI-ASSETS/images/findinvestors/hedgefunds.jpeg');
+    background-position: center;
+  }
+
+
+  .auth-houseWardogs{
+    background-image: url('/UI-ASSETS/images/findinvestors/housewardogs.jpeg');
+    background-position: center;
+  }
+
+ 
+  .investor-type-each p{
+    margin-top: 80px;
+    background-color: #5D91F0;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    width: 70%;
+    margin-right: auto;
+  }
+
+
+
+  @media only screen and (max-width:767px){
+
+
+    .investor-type{ 
+        display: block;
+        padding: 10px 10px 10px 10px;
+        margin-bottom:80px;
+    }
+
+  .investor-type-each{ 
+       margin-top: 50px;
+        }
+
+    
+  }
+
+
+
+
+.investor a{
+    margin-top: 80px; 
+    border-radius: 10px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right:25%;
+    padding-top: 15px;
+    color: #e2e2e2;
+    padding-bottom: 20px;
+    font-weight: 600;
+    background-color: #5D91F0;
+}
+
+
+.investor a:hover{
+    transition-duration: 0.5s;
+  color: black;
+    background-color: #bdcec2;
+}
+
+

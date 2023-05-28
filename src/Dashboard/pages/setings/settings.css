@@ -1,0 +1,42 @@
+.settings-input-group-each{
+    background-color: rgba(93, 145, 240,0.1);
+    width:fit-content; 
+    border: 1px solid #5D91F0;
+    margin-left: 15px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+
+.settings-input-group-each input{
+    width: 409px;
+} 
+
+.settings-credential-form{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.settings-notification-form{
+    width: 60%;
+}
+
+
+.settings-notification-group-each{
+    background-color: rgba(93, 145, 240,0.1);
+    width:fit-content; 
+    margin-left: 15px;
+    border-radius: 8px;
+    padding: 10px 25px 10px 25px;
+
+}
+
+
+@media only screen  and (max-width:991px) {
+
+    .settings-notification-form{
+        width: 100%;
+    }
+    
+    
+
+}

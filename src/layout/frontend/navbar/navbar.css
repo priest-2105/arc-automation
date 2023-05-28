@@ -1,0 +1,95 @@
+.navbar-container{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+.navbar-nav{
+  height:fit-content; 
+}
+ 
+
+.navbar-collapse li{
+  margin-top: 10px;
+}
+
+.navbar-collapse .signup-button{
+  margin-top: 10px;
+}
+
+
+.nav-item{
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
+  width: fit-content;
+}
+
+.nav-item:hover{
+  transition-duration: 0.2s;
+transition-timing-function: ease-in;
+  border-bottom: 3px solid #F08C61;
+}
+
+
+.signup-button{
+  padding: 10px 30px 15px 30px;
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.signup-button:hover{
+transition-duration: 0.5s;
+transition-timing-function: ease-in;
+color: black;
+background-color: aliceblue;
+}
+
+
+
+svg{  transform: translate(-50%, -50%);
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+  padding-top: 30px;
+  padding-left: 40px;
+}@media only screen and (min-width:991px){svg{display: none;}} 
+
+svg path{
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke: #000000;
+  fill: none;
+  transition: all .5s ease-in-out;
+}
+
+/* In menu form */
+
+.top_bar,
+.bottom_bar{
+  stroke-dasharray: 240px 910px;
+}
+
+.middle_bar{
+  stroke-dasharray: 240px 240px;
+}
+
+/* In cross form */
+
+.open .top_bar,
+.open .bottom_bar{
+  stroke-dashoffset: -650px;
+}
+
+.open .middle_bar{
+  stroke-dasharray: 0px 220px;
+  stroke-dashoffset: -120px;
+}
+
+
+
+

@@ -1,0 +1,157 @@
+.affilliate-welcome-tab-container{
+    height: fit-content;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+
+.affilliate-welcome-tab{
+   
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    background-color: transparent;
+    background-color: #5d91f0;
+background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, #f6e5dc 70%, #f08c61 88%, #cd4376 100%);
+}
+
+.invite{
+    margin-bottom: 50px;
+    border-radius: 15px;
+    margin-top: 180px;
+    background-color: rgb(234, 226, 238,0.6);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #000;
+    width: 80%;
+    padding: 50px 50px 50px;
+    min-height: 500px;
+}
+
+.invite h6{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 55px;
+    width: 65%;
+    font-weight: 600;
+}
+
+.invite p{
+    margin-top: 50px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-bottom: 50px;
+    font-weight: 550;
+}
+
+
+.invite a{
+    padding: 10px 30px 15px 30px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+  
+  }
+  
+  .invite a:hover{
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  color: black;
+  background-color: aliceblue;
+  }
+  
+
+
+  .invitation-steps{
+    display: flex;
+    background-color: #eae2ee;
+    padding: 50px 50px 50px 50px;
+    justify-content: space-around;
+  }
+
+
+  .invitation-steps-each{
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: auto;
+    width: fit-content;
+    margin-right: auto;
+
+  }
+
+
+  .invitation-steps-each-icon{
+    padding-top: 20px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    color: #eae2ee;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #5d91f0;
+
+  }
+ 
+
+
+  .invitation-steps-each p{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+
+
+
+  @media only screen and (max-width:767px){
+
+
+
+    
+
+        .invite{
+            border-radius: 15px;
+            padding:20px 20px 20px;
+            min-height: 500px;
+        }
+
+        .invite h6{
+            margin-top: 20px;
+            font-size: 35px;
+            width: 95%; 
+        }
+
+        .invite p{
+            margin-top: 50px;
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 14px;
+            margin-bottom: 30px;
+            font-weight: 550;
+        }
+
+
+
+    .invitation-steps{
+        display: block;
+    
+      }
+
+  .invitation-steps-each{ 
+       margin-top: 50px;
+        }
+
+    
+  }

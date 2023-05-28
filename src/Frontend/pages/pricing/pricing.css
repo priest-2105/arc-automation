@@ -1,0 +1,107 @@
+.pricing-tab-container{ 
+    width: 100%;
+    background-color: transparent;
+    background-color: #5d91f0;
+background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, #f6e5dc 70%, #f08c61 88%, #cd4376 100%);
+
+}
+
+
+.pricing-tab{
+    padding-top: 12%;
+    height: fit-content;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.pricing-tab-container h4{
+   font-size: 35px;
+   /* margin-top: 10%; */
+   text-align: center;
+   font-weight: 700;
+   margin-left: auto;
+   margin-right: auto;     
+   padding-bottom: 20px;
+}
+
+
+.pricing-tab a{
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    text-align: center;
+    background-color:#5D91F0;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+  
+  }
+  
+  .pricing-tab a:hover{
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  color:#5D91F0;
+  background-color: aliceblue;
+  }
+  
+  .card{
+    height: 200px;
+    border: none;
+    width: 380px;
+    background-color: rgba(234, 226, 238, 0.6);
+    padding: 10px 10px 10px 10px; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 15px;
+  
+}
+
+  .card h6{
+    font-size: 25px;
+    color:#5D91F0 ;
+  }
+
+  .card span{
+    text-align: end;
+    font-weight: 500;
+    color:#5D91F0 ;
+  }
+
+  .first-row{
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  
+    .second-row{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex; 
+  }
+
+  @media only screen and (max-width:991px) {
+
+    .pricing-tab{
+        width: 95%;
+      }
+    
+  .first-row{
+    display: block;
+   }
+
+  
+  .second-row{
+    display: block;
+     }
+
+  .space{
+    height: 300px;
+    width: 100%;
+  }
+  
+}

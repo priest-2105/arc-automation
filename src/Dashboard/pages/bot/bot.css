@@ -1,0 +1,80 @@
+.header-select{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5D91F0;
+    background-color: rgba(93, 145, 240,0.1);
+}
+
+.savechanges-input{ 
+    width: 250px;
+}
+
+.savechanges-input-group{
+    background-color:rgba(93, 145, 240,0.1);
+    width: fit-content;
+    padding: 15px 10px 15px 10px;
+}
+
+
+.input-each{
+    background-color:rgba(93, 145, 240,0.1); 
+    padding: 15px 10px 15px 10px;
+}
+
+.input-each label{
+    color: #5D91F0;
+    font-weight: 600;
+}
+.input-each select{
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+font-size: 15px;
+font-weight: 600;
+color: #5D91F0;
+}
+
+.investment-button{
+    display: block !important;
+}
+
+
+.investment-button input{
+    height: -0px;
+    padding: 0;
+    border: none;
+}
+
+.investment-button button{
+    width: 250px;
+}
+
+
+.new-symphony select{
+    border-radius: 5px;
+    width: 70%;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #5D91F0;
+    background-color: rgba(93, 145, 240,0.1);
+
+}
+
+.weight-select{
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+     font-size: 16px;
+    font-weight: 600;
+}
+
+.new-symphony-add-input{
+    width: 40%;
+}

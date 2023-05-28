@@ -1,0 +1,215 @@
+import './App.css'
+import Landingpage from './Frontend/pages/landingpage/landingpage'
+import Footer from './layout/frontend/footer/footer'
+import Navbar from './layout/frontend/navbar/navbar'
+import React, { useEffect, useState } from "react";
+import { BrowserRouter,Routes ,  Route} from 'react-router-dom';
+import About from './Frontend/pages/about/about';
+import Affiliate from './Frontend/pages/affiliate/affiliate';
+import Contact from './Frontend/pages/contact/contact';
+import Pricing from './Frontend/pages/pricing/pricing';
+import Addphone from './Auth/adphonenumber/addphone';
+import Login from './Auth/login/login';
+import Register from './Auth/register/register';
+import Authnavbar from './layout/Auth/navbar/authnavbar';
+import Otp from './Auth/otp/otp';
+import Fullname from './Auth/fullname/fullname';
+import Mission from './Auth/welcomepages/misson/mission';
+import Findinvestors from './Auth/welcomepages/findinvestors/findinvestors';
+import Sidebar from './layout/Dashboard/sidebar/sidebar';
+// import Dashboard from './Router/Dashboard/Dashboard';
+// import Frontend from './Router/frontend/frontend';
+// import Auth from './Router/Auth/auth';
+
+
+
+
+
+function App() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 300) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', toggleVisibility);
+
+    return () => {
+      window.removeEventListener('scroll', toggleVisibility);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  const [width, setWidth] = useState(0);
+
+  const handleScroll = () => {
+    const totalScroll = document.documentElement.scrollTop;
+    const windowHeight =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    const scroll = `${totalScroll / windowHeight}`;
+
+    setWidth(scroll * 90);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  });
+
+  return (
+    <div className="App">
+      <BrowserRouter> 
+
+      {/* <Route exact path="/dashboard/*" component={Dashboard} />
+
+
+      <Route exact path="/frontend/*" component={Frontend} /> */}
+
+ 
+
+      {/* <Frontend path="/frontend/*" /> */}
+
+      {/* <Route exact path="/auth/*"  component={Auth} /> */}
+
+      {/* <Auth path="/auth/*" /> */}
+            {/* FRONTEND ROUTE  */}
+        <Routes>
+          
+          
+               {/* <Route exact path="/home" element={Landingpage} /> */}
+        <Route exact path="/">
+                    <Navbar />
+                    <Landingpage />
+                    <Footer />
+                  </Route>
+
+          
+          <Route exact path="/about"> 
+          <Navbar />
+            <About />
+            <Footer />
+           </Route>
+          
+          
+          <Route exact path="/affilliate">
+          <Navbar />
+            <Affiliate />
+            <Footer />
+          </Route>
+          
+          <Route exact path="/contact">
+          <Navbar />
+            <Contact />
+            <Footer />
+             </Route>
+
+          
+          <Route exact path="/pricing">
+          <Navbar />
+            <Pricing />
+            <Footer />
+             </Route>
+          
+        </Routes>
+            {/* END OF FRONTEND ROUTE  */}
+
+
+
+
+                {/* Auth Route  */}
+         <Routes>
+        
+        <Route exact path="/auth/login"> 
+          <Authnavbar />
+            <Login /> 
+            </Route>
+
+
+           <Route exact path="/auth/register"> 
+        <Authnavbar />
+          <Register /> 
+           </Route>
+           
+        
+           <Route exact path="/auth/addphone"> 
+        <Authnavbar />
+          <Addphone /> 
+           </Route>
+      
+
+           <Route exact path="/auth/otp"> 
+        <Authnavbar />
+          <Otp /> 
+           </Route>
+           
+
+      <Route exact path="/auth/fullname"> 
+        <Authnavbar />
+          <Fullname /> 
+           </Route>
+
+
+           <Route exact path="/auth/mission"> 
+        <Authnavbar />
+          <Mission /> 
+           </Route>
+
+
+           <Route exact path="/auth/findinvestors"> 
+        <Authnavbar />
+          <Findinvestors /> 
+           </Route>
+
+
+      </Routes>
+          {/* End Of Auth Route  */}
+
+
+
+
+            {/* DASHBOARD Route  */}
+         <Routes>
+        
+             <Route exact path="/dashboard/findinvestors"> 
+          <Sidebar/>
+            <Findinvestors /> 
+             </Route>
+
+
+        </Routes>
+            {/*End Of DASHBOARD Route  */}
+
+
+ 
+              <div
+            className={`scroll-to-top-button ${isVisible ? 'visible' : ''}`}
+            id="scroll-indicator"
+            // style={{ width: `${width}%` }}
+            onClick={scrollToTop}
+          >
+            <i className="bi bi-arrow-up"></i>
+          </div>
+        <div className="scroll-progress-bar-container">
+
+        </div>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;

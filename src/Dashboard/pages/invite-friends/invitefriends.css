@@ -1,0 +1,43 @@
+.invitefriends-container{
+    width: 90%;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.invitefriends-container h2{
+    font-size: 35px;
+}
+
+
+.invitefriends-container p{
+    margin-top: 20px;        
+}
+
+.invitefriends-container label{
+    color: #5D91F0;
+    font-weight: 600;
+}
+
+.invite-link-input{
+    width: 50%;
+}
+
+
+.invite-link-input input{
+    border-left: none;
+
+}
+
+.invite-link-input button{
+    background-color: transparent;
+    border-right: none;
+}
+
+
+.invite-link-input button:hover{
+    background-color: transparent;
+    border-right: none;
+}

@@ -1,0 +1,713 @@
+.top-profile-container{
+    width: 100%;
+    background-color:  rgba(93, 145, 240,0.1)!important;
+
+}
+
+
+.profile-picture-modal-body a{
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
+.profile-picture-modal{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.profile-picture-modal img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    
+}
+
+.profile-picture-modal i{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 23px 30px 23px 30px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.top-profile{
+    display: flex;
+}
+
+.top-profile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.top-profile i{
+    font-size: 30px;
+}
+
+.profile-desc {
+    padding-top: 5px;
+    margin-right: 5px;
+    display: block;
+}
+
+.profile-desc h4{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+
+.profile-stat{
+    display: flex;
+    margin-left: 10px;
+}
+
+.profile-stat li{
+    margin-left: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.profile-stat span{
+    font-size: 20px;
+}
+
+.profile-dropdown li{
+    font-size: 28px;
+    align-items: center;
+  }
+
+.profile-dropdown i{
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.profile-overview{
+    width: 100%;
+    height: fit-content;
+    padding: 25px 25px 25px 25px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.performance{
+    width: 53%;
+    height:fit-content;
+    border: 2px solid #5D91F0;
+    border-radius: 10px;
+    margin-bottom:10px ;
+    display: block;
+    padding: 15px 15px 15px 15px;
+}
+
+.performance h4{
+    color: rgba(93, 145, 240,0.5);
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.eye{
+    /* margin-top: -50px; */
+    font-size: 200px;
+    color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: auto;
+    line-height: 10px;
+    /* margin-right: auto; */
+}
+
+.performance-info{
+    margin-top: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.performance-info li{
+    border-radius: 8px;
+    flex-basis: calc(50% - 90px);
+    padding: 10px 25px 10px 25px;
+    width: fit-content;
+    background-color: rgba(93, 145, 240,0.2);
+    margin-top: 20px;
+
+}
+
+
+.bots-active{
+    width: 45%;
+    height: fit-content;
+    border: 2px solid #5D91F0;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.bots-header{
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bots-header h6, .bots-header h3{
+    color: #5D91F0;
+    font-size:20px;
+}
+
+.bots-header a{
+    color: #5D91F0;
+    border: 2px solid #5D91F0;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+    
+.bots-header a:hover{
+    background-color: #5D91F0;
+    color: #e2e2e2;
+}
+
+
+
+.bot-strategy-list{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    height: 80px;
+    background-color:rgba(93, 145, 240,0.1);
+    margin-bottom: 20px;
+}
+
+.bot-strategy-list:hover{
+    background-color:rgba(93, 145, 240,0.3);
+}
+
+.bot-strategy-list img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.bot-strategy-status{
+    margin-left: 10px;
+}
+
+.bot-strategy-status h3{
+    color: #5D91F0;
+    font-size: 16px;
+}
+
+
+
+.bot-strategy-info{ 
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    margin-left: auto;
+}
+
+
+.bot-strategy-info li{
+    font-weight: 500;
+    display: flex;
+    align-items: center; 
+}
+
+.bot-strategy-info h3{
+    color: #5D91F0;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.bot-strategy-info p{
+    margin-right: 50px;
+}
+
+
+.bot-strategy-list span{
+    text-align: end;
+    font-stretch:ultra-expanded;
+    margin-left: auto;
+
+}
+
+.bot-strategy-list h6{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: end;
+    margin-left: auto;
+}
+
+
+
+
+
+.publish-strategy{
+    width: 53%;
+    height: fit-content;
+    border: 2px solid #5D91F0;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.publish-strategy h4{
+    margin-top: 5px;
+    color: rgba(93, 145, 240,0.5);
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.publish-strategy-profile{
+    display: flex;
+    align-items: center;
+}
+
+.publish-strategy-profile img{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.publish-strategy-profile-desc {
+    padding-top: 5px;
+    margin-left: 15px;
+    display: block;
+}
+
+.publish-strategy-profile-desc h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(20, 19, 19);
+}
+
+
+.investment-strategy{
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #5D91F0;
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.investment-strategy select{
+    width: 100%;
+    color: #5D91F0;
+    border: none;
+}
+
+.overview-strategy-info select{
+    color: #5D91F0;
+    border: 2px solid #5D91F0;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.similar-traders{
+    overflow: hidden;
+    margin-top: -80px;
+    width: 45%;
+    height:385px;
+    border: 2px solid #5D91F0;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+
+}
+
+.similar-traders-list-container{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+/* For Webkit browsers */
+.similar-traders-list-container::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .similar-traders-list-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+  }
+  
+  .similar-traders-list-container::-webkit-scrollbar-thumb {
+    background: #5D91F0;
+    border-radius: 10px;
+  }
+  
+  .similar-traders-list-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(93, 145, 240,0.6);
+  }
+  
+
+
+
+
+.similar-traders-list{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    height: 80px;
+    background-color:rgba(93, 145, 240,0.1);
+    margin-bottom: 20px;
+}
+
+.similar-traders-list:hover{
+    background-color:rgba(93, 145, 240,0.3);
+}
+
+.similar-traders-list img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.similar-traders-status{
+    margin-left: 10px;
+}
+
+.similar-traders-status h3{
+    color: #5D91F0;
+    font-size: 16px;
+}
+
+
+
+.similar-traders-info{ 
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    margin-left: auto;
+}
+
+
+.similar-traders-info li{
+    font-weight: 500;
+    display: flex;
+    align-items: center; 
+}
+
+.similar-traders-info h3{
+    color: #5D91F0;
+    margin-right: auto;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.similar-traders-info p{
+    margin-right: 50px;
+}
+
+.similar-traders-info a{
+    color: #5D91F0;
+    border: 2px solid #5D91F0;
+    border-radius: 5px;
+    padding: 8px 20px 8px 20px;
+}
+    
+.similar-traders-info a:hover{
+    background-color: #5D91F0;
+    color: #e2e2e2;
+}
+
+
+
+.similar-traders-list span{
+    text-align: end;
+    font-stretch:ultra-expanded;
+    margin-left: auto;
+
+}
+
+.similar-traders-list h6{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: end;
+    margin-left: auto;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+.publish-strategy{
+    width: 53%;
+    height: fit-content;
+    border: 2px solid #5D91F0;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+.publish-strategy h4{
+    margin-top: 5px;
+    color: rgba(93, 145, 240,0.5);
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+.overview-strategy-value{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2.5px solid transparent;
+
+}
+
+.overview-strategy-value:hover{
+    border: 2.5px solid rgba(128, 128, 128,0.8);
+}
+
+.overview-strategy-value ul{
+    display: block;
+    align-items: center;
+    width: fit-content;
+    height:100%;
+}
+
+.overview-strategy-value li{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.overview-strategy-value p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.overview-strategy-value span{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.overview-strategy-header{
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.overview-strategy-header h6, .overview-strategy-header h3{
+    color:#062046;
+    font-size:22px;
+}
+
+.overview-strategy-header a{
+    border: 2px solid #5D91F0;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+    
+.overview-strategy-header a:hover{
+    background-color: #5D91F0;
+    color: #e2e2e2;
+}
+
+
+.overview-strategy-group{
+    width: 100%;
+    background-color:  rgba(93, 145, 240,0.09);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.overview-strategy-top-table{
+    color: #5D91F0;
+}
+
+.overview-strategy-top-table span{
+    font-weight: 700;
+}
+
+.overview-strategy-top-table a{
+    border: 2px solid #5D91F0;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 60px;
+}
+    
+.overview-strategy-top-table a:hover{
+    background-color: #5D91F0;
+    color: #e2e2e2;
+}
+
+.overview-strategy-list{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    align-items: baseline;
+    height: 80px;
+    border-bottom:2.5px solid rgba(93, 145, 240,0.3);
+    margin-bottom: 0px;
+    /* align-items: center; */
+
+}
+ 
+.overview-strategy-list img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.overview-strategy-status{
+    margin-left: 10px;
+}
+
+.overview-strategy-status h3{
+    color: #5D91F0;
+    font-size: 16px;
+}
+
+
+
+.overview-strategy-info{ 
+    justify-content: space-between;
+    width: 85%;
+    /* padding: 10px 10px 10px 10px; */
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+.overview-strategy-info li{
+    font-weight: 500;
+    display: flex;
+    align-items: center; 
+}
+
+.overview-strategy-list-header{
+    border: 2px solid rgba(128, 128, 128,0.4);
+    align-items: center;
+    height: 60px;
+    box-shadow: 5px 50px 50px 5px rgba(128, 128, 128,0.4);
+}
+
+
+.overview-strategy-list-header li{
+    /* border: 2px solid grey; */
+    height: 100% !important;
+}
+
+.overview-strategy-info h3{
+    color: #5D91F0;
+    margin-right: auto;
+    font-size: 16px;
+    /* line-height: normal; */
+}
+
+.overview-strategy-info p{
+    margin-right: 50px;
+}
+
+
+.overview-strategy-list span{
+    text-align: end;
+    font-stretch:ultra-expanded;
+    margin-left: auto;
+
+}
+
+.overview-strategy-list h6{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: end;
+    margin-left: auto;
+}
+
+
+
+.strategies-action-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 60px;
+    /* background-color: #5D91F0; */
+}
+
+.watch {
+    border: 2px solid #5D91F0;
+    border-radius: 5px;
+    color: #5D91F0;
+    padding: 5px 10px 5px 10px;
+}
+    
+.watch:hover{
+    background-color: #5D91F0;
+    color: #e2e2e2;
+    
+}
+
+
+.copy {  
+    background-color: #5D91F0;
+    margin-top: 5px;
+    width: 70px;
+    text-align: center;
+    color: #e2e2e2;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+    
+.copy:hover{
+    border: 2px solid #5D91F0;
+    background-color: transparent;
+}
+
+.portfolio-container{
+    position: relative;
+}
+
+
+.bottom-portfolio-stat{
+    position: fixed;
+    background-color: #e2e2e2;
+    bottom: -5%;
+    right: -1%;
+    width: 89%;
+}
+
+git branch -M main
+git remote add origin https://github.com/priest-2105/arc-automation.git
+git push -u origin main

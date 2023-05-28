@@ -1,0 +1,13 @@
+.sidebar-container{
+    position:fixed;
+    height: 100%;
+    width: 400px; 
+    background-color: blue;
+}
+
+/* .sidebar{
+    position: fixed;
+    height: 100%;
+    width: max-content;
+    background-color: red;
+} */

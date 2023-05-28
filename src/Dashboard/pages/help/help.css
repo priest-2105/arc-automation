@@ -1,0 +1,32 @@
+.help-container{
+    width: 90%;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.help-container h2{
+    font-size: 35px;
+}
+
+
+.help-container p{
+    margin-top: 20px;        
+}
+
+.help-container label{
+    color: #5D91F0;
+    font-weight: 600;
+}
+
+.invite-link-input{
+    width: 50%;
+}
+
+.invite-link-input a:hover{
+    background-color: #5D91F0 !important;
+    
+}
+

@@ -1,0 +1,96 @@
+.contact-welcome-tab-container{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+
+.contact-welcome-tab{
+    display: flex;
+    height: 100%; 
+    width: 100%;
+    padding:200px 50px 80px 50px;
+    background-color: transparent;
+    background-color: #5d91f0;
+background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, #f6e5dc 70%, #f08c61 88%, #cd4376 100%);
+}
+
+
+
+.left-contact-welcome-tab{
+    width: 45%;
+    height: 100%;
+}
+
+.left-contact-welcome-tab h6{
+   font-size: 55px;
+   width: 80%;
+   font-weight: 700;
+}
+
+.left-contact-welcome-tab ul{
+    margin-top: 30px;
+    display: block;
+}li{list-style: none;}
+
+
+.left-contact-welcome-tab li{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.right-contact-welcome-tab{
+    margin-top: 40px;
+    width: 45%; 
+    height: 100%;
+    margin-left: auto;
+}
+
+.right-contact-welcome-tab-container{
+    position: relative;
+}
+
+.form-control{
+    border-color: #5d91f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.submit-button{
+    background-color: #5d91f0;
+    margin-top: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    /* width: 100px; */
+    text-align: center;
+    color: #eae2ee; 
+}
+
+.submit-button:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+   color: #5d91f0;
+     background-color: #eae2ee; 
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+
+    .contact-welcome-tab{
+        display: block;
+        }
+    
+        .left-contact-welcome-tab{
+            width: 100%;
+        }
+
+        
+        .right-contact-welcome-tab{
+            width: 100%;
+        }
+    
+}

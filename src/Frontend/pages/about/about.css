@@ -1,0 +1,250 @@
+.about-tab-container{
+    height: fit-content;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+
+
+.about-tab{
+    display: flex;
+    height: fit-content;
+    padding-top: 80px;
+    width: 100%;
+    background-color: transparent;
+    background-color: #5d91f0;
+background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, #f6e5dc 70%, #f08c61 88%, #cd4376 100%);
+}
+
+
+
+.left-about-tab{
+    width: 55%;
+    height: 100%;
+    padding: 80px 0px 0px 50px;
+    
+}
+
+.left-about-tab h6{
+    margin-top: 0px;
+   font-size: 55px;
+   margin-top: 20%;
+   width: 80%;
+   font-weight: 700;
+}
+
+.left-about-tab p{
+    color: grey;
+    font-weight: 500;
+   padding-bottom: 50px;
+}
+
+
+.left-about-tab a{
+    padding: 10px 30px 15px 30px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+  
+  }
+  
+  .left-about-tab a:hover{
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  color: black;
+  background-color: aliceblue;
+  }
+  
+
+
+.right-about-tab{
+    
+    width: 45%; 
+    height: 100%;
+} 
+
+/* end of about welcome section  */
+
+
+
+
+/* team sectrion  */
+
+
+.teams{
+    min-height: 700px;
+    padding-top: 80px;
+    width: 100%;
+    background-color: transparent;
+    background-color: #5d91f0;
+    color: #eae2ee;
+    padding-left: 50px;
+    padding-bottom: 80px;
+    padding-right: 50px;
+background-image: linear-gradient(220deg, #161515 25%, #212020 45%, #282728 65%, #333333 85%, #2f2e2e 90%, #333333 100%);
+}
+
+
+.teams h6{
+    font-size: 30px;
+
+}
+    
+.teams p{
+    /* padding-top: 50px; */
+    font-size: 18px;
+}
+
+.team-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.team-members img{
+    margin-top: 50px;
+    height: 250px;
+    border-radius: 15px;
+    width: 180px;
+
+}
+
+.team-members-title{
+    margin-top: 30px;
+    color: #000000;
+    background-color: #5d91f0;
+    display: block;
+    min-width: 250px;
+    padding:  0px 15px 2px 10px;
+}
+
+.team-members-title h6{
+    line-height: 40px;
+}
+    
+
+.team-members-title p{
+    margin-top: 0px;
+}
+
+
+/* end of team section  */
+
+
+
+
+/* bottom about us  */
+
+
+
+.bottom-about-us{
+    position: relative;
+    display: flex;
+    min-height: 800px;
+    /* padding-top: 80px; */
+    width: 100%;
+     background-color: #5d91f0;
+background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%,#ffffff 57%, #f6e5dc 70%, #f08c61 88%, #cd4376 100%);
+}
+
+
+.bottom-about-us-paragraph{
+    margin-top: 80px;
+    color: #000000;
+    padding: 50px 40px 40px 40px;
+
+}
+
+
+.bottom-about-us-paragraph h6{
+    font-size: 30px;
+}
+
+.bottom-about-us-paragraph p{
+    margin-top: 50px;
+    font-weight: 480;
+    font-size: 19px;
+}
+
+
+
+
+.circle{
+    position: absolute;
+    background-color: rgba(255, 255, 255,0.2);
+    width: 650px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.circle-1{
+     top: 5%;
+     left: -10%;
+    }
+
+
+.circle-2{
+    top: 15%;
+    left: 58%;
+}
+
+.circle-3{
+    top: 50%;
+    left: 58%;
+}
+
+
+/* and of bottom about us  */
+
+
+
+
+        /* //////////////////////     RESPONSIVENESSS      ///////////////////// */
+
+
+
+
+
+                     /* Responsiveness for widths unders 991px */
+@media only screen and (max-width: 991px ){
+
+    .about-tab{
+        display: block; 
+    }
+
+    .left-about-tab{
+        /* padding-top: 350px; */
+        width: 100%; 
+        margin-top: 0;
+        
+    }
+
+    .left-about-tab h6{
+        font-size: 35px;
+        font-weight: 600;
+        padding-bottom: 0px;
+        width: 90%;
+     }
+ 
+     .right-about-tab img{
+        display: none;
+     }
+        
+
+     .right-about-tab{ 
+            background-image: url('../../../../public/UI-ASSETS/images/about/About us page-amico 1.png');
+            width: 100%; 
+            height: 600px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            
+        
+     }
+    
+ 
+}

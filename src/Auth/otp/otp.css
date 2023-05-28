@@ -1,0 +1,100 @@
+.otp{
+    border: 4px solid #5D91F0;
+    height: 600px;
+    max-width: 550px;
+    display: block;
+    margin-top: 150px;
+    border-radius: 10px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+}
+
+
+small{
+    text-align: left; 
+    margin-left: 10px;
+    line-height: 15px; 
+}
+
+.otp h6{
+    text-align: left;
+    margin-left: 70px;
+    line-height: 15px;
+    margin-top: 30px;
+}
+
+.otp label{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.otp input{
+    border: 2px solid #5D91F0;
+    border-radius: 15px; 
+    width: 60px;
+    text-align: center;
+    height: 50px;
+    margin-left:10px;
+    margin-right: auto;
+}
+
+.otp input[value]{
+    color: #5D91F0;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.otp input::placeholder{
+    text-align: center;
+    font-size: 20px;
+    color: #5D91F0;
+}
+
+
+.otp p{
+    margin-top: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.otp a{
+    margin-top: 80px; 
+    border-radius: 10px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 25%;
+    padding-right:25%;
+    padding-top: 15px;
+    color: #e2e2e2;
+    padding-bottom: 20px;
+    font-weight: 600;
+    background-color: #5D91F0;
+}
+
+
+.otp a:hover{
+    transition-duration: 0.5s;
+  color: black;
+    background-color: #bdcec2;
+}
+
+
+@media only screen and (max-width:480px) {
+    
+    
+.otp input{
+     border-radius: 8px;
+    width: 35px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+
+
+}

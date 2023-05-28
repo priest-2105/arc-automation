@@ -1,0 +1,60 @@
+.nav-header{
+    background-color: #5d91f0;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-top-right-radius: 55px !important;
+}
+
+.nav-header h1{
+    color: #e2e2e2;
+
+}
+
+.dlabnav{
+color: #e2e2e2;
+margin-top: -20px;
+/* background-color: #5d91f0; */
+background-image: linear-gradient( #5d91f0 2%, #cc78f0 100%);
+border-bottom-right-radius: 55px !important;
+}
+
+.nav-text{
+    color: #e2e2e2;
+}
+
+.has-arrow{
+    color: #e2e2e2;
+}
+
+.has-arrow li{
+    color: #e2e2e2;
+}
+
+.has-arrow i {
+    color: #e2e2e2!important;
+}
+
+
+
+.widget{
+    display: flex;  margin-left:20px ;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 30px 10px 10px;
+}
+
+
+.widget span{
+  display: flex;
+}
+
+
+.metismenu li{
+    margin-bottom: 10px;
+}
+
+.dashboard-inner{
+    height: fit-content;
+    padding-bottom: 80px;
+}
+
