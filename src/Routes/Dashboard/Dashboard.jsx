@@ -57,19 +57,16 @@ const Dashboard = () => {
                         <div className="dashboard_bar">
                             Dashboard
                         </div>
-                        <div className="nav-item d-flex align-items-center">
+                        <div className="d-flex align-items-center">
                             <div className="input-group search-area">
                                 <input type="text" className="form-control" placeholder="Search"/>
                                 <span className="input-group-text"><Link to="javascript:void(0)"><i className="flaticon-381-search-2"></i></Link></span>
                             </div>
-                            <div className="plus-icon">
-                                <Link to="javascript:void(0);" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg"><i className="fas fa-plus"></i></Link>
-                                    
-                            </div>
+                           
                         </div>
                     </div>
                     <ul className="navbar-nav header-right">
-                        <li className="nav-item dropdown notification_dropdown">
+                        <li className=" dropdown notification_dropdown">
                             <Link className="nav-link bell-link " to="javascript:void(0);">
                            <i className="bi bi-chat-fill"></i>
                                 <span className="badge light text-white bg-primary rounded-circle">76</span>
@@ -77,7 +74,7 @@ const Dashboard = () => {
                         </li>	
                         
                         
-                        <li className="nav-item dropdown notification_dropdown">
+                        <li className=" dropdown notification_dropdown">
                             <Link className="nav-link " to="javascript:void(0);" data-bs-toggle="dropdown">
                                  <i className="bi bi-bell-fill"></i>
 
@@ -140,7 +137,7 @@ const Dashboard = () => {
                               
                             </div>
                         </li>
-                        <li className="nav-item dropdown header-profile">
+                        <li className="  dropdown header-profile">
                             <Link className="nav-link" to="javascript:void(0);" role="button" data-bs-toggle="dropdown">
                                 <img src="/UI-ASSETS/images/images/avatar/1.jpg" width="20" alt=""/>
                             </Link>
