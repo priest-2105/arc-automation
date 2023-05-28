@@ -40,3 +40,23 @@
     
 
 }
+
+
+
+@media only screen and (max-width:991px) {
+
+    .settings-input-group-each input{
+        width: 85%;
+    } 
+    
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+    .settings-input-group-each input{
+        width:98%;
+    } 
+    
+}

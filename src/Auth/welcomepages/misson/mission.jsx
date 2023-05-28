@@ -7,7 +7,7 @@ const Mission = () => {
 
 
     return (
-        <div>
+        <div className='mission-container'>
 
         <div className="mission">
 
@@ -47,7 +47,7 @@ const Mission = () => {
     
     
     
-         <a href="/auth/findinvestors"> Find a Pilot </a>
+         <a href="/dashboard/findinvestors"> Find a Pilot </a>
 
 
         </div>            

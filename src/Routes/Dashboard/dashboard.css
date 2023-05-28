@@ -58,3 +58,20 @@ border-bottom-right-radius: 55px !important;
     padding-bottom: 80px;
 }
 
+
+
+
+
+@media only screen and (max-width:768px) {
+
+ 
+.nav-header{
+    background-color: transparent;
+}
+
+
+.dlabnav{
+    border-bottom-right-radius: 0px !important;
+    }
+
+}

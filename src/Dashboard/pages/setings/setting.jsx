@@ -45,12 +45,12 @@ const Setting = () => {
                                 <h2 class="text-primary">Credentials</h2>
                                 <div class="row ">
                                     <div class="mb-3 settings-input-group-each">
-                                        <label style={{width:"409px"}} class="form-label">Username</label>
+                                        <label style={{maxWidth:"409"}} class="form-label">Username</label>
                                         <input type="text" placeholder="username010" class="form-control"/>
                                     </div>
                        
                                     <div class="mb-3 settings-input-group-each">
-                                        <label style={{width:"409px"}} class="form-label">Password</label>
+                                        <label style={{maxWidth:"409"}} class="form-label">Password</label>
                                         <div className="input-group">
                                     <input type="password" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                                     <button className="btn btn-outline-primary" type="button" id="button-addon2">Change</button>
@@ -59,7 +59,7 @@ const Setting = () => {
 
 
                                     <div class="mb-3 settings-input-group-each">
-                                        <label style={{width:"409px"}} class="form-label">Email</label>
+                                        <label style={{maxWidth:"409"}} class="form-label">Email</label>
                                         <div className="input-group">
                                     <input type="email" className="form-control" placeholder="" aria-label="Email" aria-describedby="button-addon2"/>
                                     <button className="btn btn-outline-primary" type="button" id="button-addon2">Change</button>
@@ -69,7 +69,7 @@ const Setting = () => {
 
 
                                     <div class="mb-3 settings-input-group-each">
-                                        <label style={{width:"409px"}} class="form-label">Phone Number</label>
+                                        <label style={{maxWidth:"409"}} class="form-label">Phone Number</label>
                                         <div className="input-group">
                                     <input type="text" className="form-control" placeholder="" aria-label="+123 2893 429" aria-describedby="button-addon2"/>
                                     <button className="btn btn-outline-primary" type="button" id="button-addon2">Change</button>

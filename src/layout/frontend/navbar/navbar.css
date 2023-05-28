@@ -1,13 +1,21 @@
 .navbar-container{
   position: absolute;
   top: 0%;
+  left: 0%;
   width: 100%;
+}
+
+.navbar-offcanvas{
+  background-color: aliceblue;
 }
 
 .navbar-nav{
   height:fit-content; 
 }
- 
+
+.mobile-nav-toggler{
+  margin-right: -70px;
+}
 
 .navbar-collapse li{
   margin-top: 10px;
@@ -93,3 +101,15 @@ svg path{
 
 
 
+@media only screen and (max-width:991px){
+  .navbar-nav{
+    padding: 15px 10px 15px 10px;
+    background-color: aliceblue;
+    position: relative;
+  }
+
+  .signup-button{
+    margin-left: 20px;
+  }
+  
+}

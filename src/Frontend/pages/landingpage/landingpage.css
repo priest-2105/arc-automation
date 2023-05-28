@@ -56,12 +56,9 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, 
 .right-welcome-tab{
     width: 55%; 
     height: 100%;
-    position: relative;
+
 }
 
-.right-welcome-tab-container{
-    position: relative;
-}
 
 
 .right-welcome-tab img{
@@ -69,14 +66,14 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, 
 }
 
 .desktop-chart{
-    bottom: 15%;
+    top: 4%;
     height: 550px;
     width: 640px;
 }
 
 .mobile-chart{
-    left: 70%;
-    bottom:3%;
+    left: 80%;
+    top:9%;
     height: 450px;
     width: 200px;
 }
@@ -416,15 +413,15 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, 
      
 
     .desktop-chart{
-        top: 30%;
+        top: 2%;
         height: 400px;
         width: 500px;
-        left: 20%;
+        left: 18%;
     }
     
     .mobile-chart{
         left: 5%;
-        top: 85%;
+        top: 5%;
         height: 250px;
         width: 100px;
     }
@@ -510,16 +507,16 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, 
         
     
         .desktop-chart{
-            top: 50%;
+            top: 2%;
             margin-left: 70px;
             height: 150px;
-            width: 100%;
-            left: 15%;
+            width: 200px;
+            left: 10%;
         }
         
         .mobile-chart{
-            left: 26%;
-            top:63%;
+            left: 20%;
+            top:2.5%;
             height: 150px;
             width: 50px;
         }
@@ -535,10 +532,13 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, 
             position: relative;
         }
 
+        .steps-card-number{
+            margin-top: -200px;
+        }
 
         .step-card-container{   
             margin-left: auto;
-            margin-right: auto; 
+            margin-right: auto;
             position: relative;
             background-image: linear-gradient( #cc78f0 35%, #5d91f0 75%, #f08c61 88%, #cd4376 100%);
             padding: 5px 5px 5px 5px;
@@ -668,7 +668,12 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%, 
 
 
             /* fAq section  */
-                            
+
+            .accordion{
+                padding: 10px 10px 10px 10px;
+            }
+
+            
             .accordion-button i{
             margin-left: 40%;
             }

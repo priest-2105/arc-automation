@@ -15,8 +15,24 @@ const Auth = () => {
         <div>
 
     <div>
-      <Authnavbar />
-    <Routes> 
+    
+        {/* <Authnavbar /> */}
+
+        <div className="navbar-container">
+
+         
+            
+<nav className="navbar pt-5 bg-transparent navbar-expand-lg">
+<a className="navbar-brand fs-1 ms-3" href="/">ARC</a>
+    
+</nav>
+
+</div>
+
+
+
+     <div className="pt-5">
+        <Routes> 
  
         <Route exact path="/login" element={<Login/>} />
         <Route exact path="/register" element={<Register/>} />
@@ -25,8 +41,10 @@ const Auth = () => {
         <Route exact path="/fullname" element={<Fullname/>} />
         <Route exact path="/mission" element={<Mission/>} />
         <Route exact path="/findinvestors" element={<Findinvestors/>} />
- </Routes>
-    </div>
+ </Routes></div> 
+    
+
+</div>
  
 
 

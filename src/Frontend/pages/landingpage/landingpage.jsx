@@ -48,7 +48,7 @@ const Landingpage = () => (
     <div className="landing-page-steps">
 
       {/* step 1 */}
-      <div className="step-1  ms-auto me-auto">
+      <div className="step-1  ms-auto me-auto steps-card-number">
         <h2 className="step-number text-center">  01  </h2>
         <div className="step-card-container">
           <div className="step-card">
@@ -66,7 +66,7 @@ const Landingpage = () => (
 
 
       {/* step 2  */}
-      <div className="step-2  ms-auto me-auto mt-5">
+      <div className="step-2  ms-auto me-auto steps-card-number mt-5">
         <h2 className="step-number text-center">  02  </h2>
         <div className="step-card-container">
           <div className="step-card">
@@ -85,7 +85,7 @@ const Landingpage = () => (
 
 
       {/* step 3 */}
-      <div className="step-3 ms-auto me-auto mt-3">
+      <div className="step-3 ms-auto me-auto steps-card-number mt-3">
         <h2 className="step-number text-center">  03  </h2>
         <div className="step-card-container">
           <div className="step-card">
@@ -259,7 +259,7 @@ const Landingpage = () => (
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed bg-transparent border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i> 
+        What do we do at ARC <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i> 
       </button>
     </h2>
     <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -270,7 +270,7 @@ const Landingpage = () => (
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed bg-transparent border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>
+        What Do We Stand For  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>
       </button>
     </h2>
     <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -281,7 +281,7 @@ const Landingpage = () => (
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed bg-transparent border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>
+        How Do I Get Started  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>
       </button>
     </h2>
     <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -293,7 +293,7 @@ const Landingpage = () => (
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed bg-transparent border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-        Accordion Item #4  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>
+        WHen Was ARC Founded  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>
       </button>
     </h2>
     <div id="flush-collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -305,7 +305,7 @@ const Landingpage = () => (
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed bg-transparent border-0 shadow-none" type="" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-        Accordion Item #5  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>  
+        Is This Good Place To Trust In  <i className='bi bi-plus-lg '></i>  <i className='bi bi-dash-lg '></i>  
       </button>
     </h2>
     <div id="flush-collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">

@@ -5,7 +5,7 @@ const Findinvestors = () => {
 
 
     return (
-        <div>
+        <div className='investor-container'>
 
 <div className="investor">
 
@@ -20,28 +20,30 @@ const Findinvestors = () => {
 
 <div className="investor-type">
        
-       <div className="investor-type-each auth-politician">
+          
+<Link to="/dashboard/findinvestors/politicians"> <div className="dashboard-investor-type-each dashboard-politician">
            <p>Politician 
         </p>
-   </div>
+   </div></Link>
 
 
-   <div className="investor-type-each auth-senator">
+   <Link to="/dashboard/findinvestors/politicians"><div className="dashboard-investor-type-each dashboard-senator">
          <p>Senator
         </p>
-   </div>
+   </div></Link>
 
 
-   <div className="investor-type-each auth-hedgefunds">
+   <Link to="/dashboard/findinvestors/politicians">
+   <div className="dashboard-investor-type-each dashboard-hedgefunds">
        <p>Hedgefunds 
         </p>
-   </div> 
+   </div> </Link>
 
-   <div className="investor-type-each auth-houseWardogs">
+   <Link to="/dashboard/findinvestors/politicians">
+   <div className="dashboard-investor-type-each dashboard-houseWardogs">
        <p>HouseWardogs
         </p>
-   </div> 
-
+   </div> </Link>
    </div>
   
 

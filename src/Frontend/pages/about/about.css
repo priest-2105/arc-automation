@@ -245,6 +245,30 @@ background-image: linear-gradient(125deg, #cc78f0 1%, #5d91f0 12%, #eae2ee 27%,#
             
         
      }
+
+     
+        .team-members-title{
+            margin-top: 30px;
+            color: #000000;
+            background-color: #5d91f0;
+            display: block;
+            height: fit-content;
+            min-width: 200px;
+            padding:  20px 15px 2px 10px;
+        }
+
+        .team-members-title h6{
+            line-height: 10px;
+            font-size: 17px;
+        }
+            
+
+        .team-members-title p{
+            margin-top: 0px;
+        }
+
     
  
+            
+
 }

@@ -7,7 +7,7 @@ import Contact from '../../Frontend/pages/contact/contact';
 import Pricing from '../../Frontend/pages/pricing/pricing';
 import Footer from '../../layout/frontend/footer/footer';
 import Navbar from '../../layout/frontend/navbar/navbar';
-
+import './frontend.css'
 
 const Frontend = () => {
 
@@ -65,14 +65,15 @@ const Frontend = () => {
         <div>
 
     <div>
-      <Navbar />
+     <Navbar />  
       <Routes>
+      
         <Route exact path="/" element={<Landingpage/>} />
-        <Route exact path="about" element={<About/>} />
-        <Route exact path="affiliate" element={<Affiliate/>} />
-        <Route exact path="contact" element={<Contact/>} />
-        <Route exact path="pricing" element={<Pricing/>} />
-      </Routes>
+        <Route exact path="/about" element={<About/>} />
+        <Route exact path="/affiliate" element={<Affiliate/>} />
+        <Route exact path="/contact" element={<Contact/>} />
+        <Route exact path="/pricing" element={<Pricing/>} />
+      </Routes> 
       <Footer />
     </div> 
 

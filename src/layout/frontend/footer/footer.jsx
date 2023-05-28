@@ -29,7 +29,7 @@ const Footer = () => {
                     <li> <a href="#"> <i className="bi bi-linkedin"></i> </a> </li>
                     <li> <a href="#"> <i className="bi bi-youtube"></i> </a> </li>
                 </div>
-                <a href="#" className='footer-button'> Get Started </a>
+                <a href="/auth/addphone" className='footer-button'> Get Started </a>
             </div>
 
         </div>

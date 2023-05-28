@@ -45,7 +45,7 @@ const Profile = () => {
              </div>            
 
         
-        <ul className="nav ms-auto">
+        <ul className="nav ms-auto top-profile-tab">
          <li className="nav-item ms-auto"><a href="#overview" data-bs-toggle="tab" className="nav-link active show">Overview</a>
         </li>
        
@@ -303,7 +303,7 @@ const Profile = () => {
                  <div id="portfolio" className="tab-pane fade">
                 <div className="porfolio-container">
 
-
+ 
                 <div className="portfolios-group">
 
 
@@ -318,7 +318,7 @@ const Profile = () => {
 
                             <li><span>P/L(%)</span></li>
 
-                        <li> 
+                        <li className='ms-auto'> 
                         <a href="#">Value</a>
                         </li>
                     </div>

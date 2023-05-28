@@ -114,6 +114,13 @@
 
 @media only screen and (max-width:991px) {
  
+    .dashboard-investor{
+        height:fit-content;
+        width: 100%;
+        display: block;
+        padding: 0;
+        border-radius: 10px;
+    }
     
     .politician-list{
         padding: 10px 10px 10px 10px;
@@ -122,3 +129,6 @@
     }
 
 }
+
+
+ 

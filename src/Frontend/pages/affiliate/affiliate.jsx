@@ -10,9 +10,9 @@ const Affiliate = () => {
         <div>
 
 
-              <div className="welcome-tab-container">
+              <div className="affiliate-welcome-tab-container">
       {/* the welcome tab on the landing   */}
-      <div className="welcome-tab">
+      <div className="affiliate-welcome-tab ">
         <div className="invite">
                <h6>Invite your friends to trade real assets and Unlock 10 free Bots</h6>
                 <p>Lorem ipsum , tLorem ipsum , tLorem ipsum , temporibus alias commodi consequatur!</p>

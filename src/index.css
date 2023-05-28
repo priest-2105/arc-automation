@@ -40,7 +40,7 @@ li{list-style-type: none;}
   #scroll-indicator {
     position: fixed;
     bottom: 70px;
-    right: 70px;
+    right: 20px;
     width: 50px;
     color: rgb(255, 252, 252);
     font-size: 30px;
