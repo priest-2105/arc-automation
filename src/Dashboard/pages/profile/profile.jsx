@@ -295,7 +295,19 @@ const Profile = () => {
                
 
                 <div id="stats" className="tab-pane fade">
-                   stats
+                  <div className="stat-container">
+
+                  <div className="" style={{width:"100%"}}>
+                                    <div className="card-header">
+                                        <h4 className="card-title">Perfomance</h4>
+                                    </div>
+                                    <div className="card-body">
+                                        <canvas id="barChart_3"></canvas>
+                                </div>
+                            </div>
+
+
+                  </div>
                 </div>
 
 
@@ -1051,7 +1063,7 @@ const Profile = () => {
         <a href="#">
           <div className="profile-picture-modal">
         <img src="/UI-ASSETS/images/images/avatar/1.jpg" width="20" alt=""/>
-        <i class="bi bi-camera-fill"></i>
+        <i className="bi bi-camera-fill"></i>
         </div>  </a> 
    
    
