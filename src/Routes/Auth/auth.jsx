@@ -7,7 +7,6 @@ import Addphone from '../../Auth/adphonenumber/addphone';
 import Otp from '../../Auth/otp/otp';
 import Fullname from '../../Auth/fullname/fullname';
 import Mission from '../../Auth/welcomepages/misson/mission';
-import Findinvestors from '../../Auth/welcomepages/findinvestors/findinvestors';
  
 
 const Auth = () => {
@@ -40,7 +39,6 @@ const Auth = () => {
         <Route exact path="/otp" element={<Otp/>} />
         <Route exact path="/fullname" element={<Fullname/>} />
         <Route exact path="/mission" element={<Mission/>} />
-        <Route exact path="/findinvestors" element={<Findinvestors/>} />
  </Routes></div> 
     
 

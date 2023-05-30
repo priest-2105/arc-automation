@@ -1,9 +1,17 @@
 import React from 'react';
 import './profile.css'
+import { useState } from 'react';
 
 
 
 const Profile = () => {
+
+
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleCheckboxChange = () => {
+    setIsChecked(!isChecked);
+  };
 
 
     return (
@@ -302,10 +310,181 @@ const Profile = () => {
                                         <h4 className="card-title">Perfomance</h4>
                                     </div>
                                     <div className="card-body">
+                                    {/* <div class="px-4"><span class="bar" data-peity='{ "fill": ["rgb(0, 0, 128)", "rgb(7, 135, 234)"]}'>6,2,8,4,-3,8,1,-3,6,-5,9,2,-8,1,4,8,9,8,2,1</span>
+                                     </div> */}
                                         <canvas id="barChart_3"></canvas>
                                 </div>
                             </div>
 
+                            <input
+                                    type="checkbox"
+                                    className="bar-chart-stat-input"
+                                    id="bar-chart-stat-input"
+                                    checked={isChecked}
+                                    onChange={handleCheckboxChange}
+                                />
+                     <div className="bar-chart-year-stats-container">
+
+                     <div className="barchart-stats-list">
+                        <li className="barchart-stats-list-year-stat">2023</li>
+
+                        <li className="text-danger" >28.20</li>
+
+                        <li className="text-success" >16.43</li>
+
+                        <li className="text-success" >58.60</li>
+
+                        <li className="text-success" >42.05</li>
+
+                        <li className="text-danger" >14.80</li>
+
+                        <li className="text-danger" >92.0</li>
+
+
+                            <li className="barchart-stats-list-end-stat" >11.5</li>
+                        </div>
+
+
+                        <div className="barchart-stats-list">
+                        <li className="barchart-stats-list-year-stat">2023</li>
+
+                        <li className="text-danger" >28.20</li>
+
+                        <li className="text-success" >16.43</li>
+
+                        <li className="text-success" >58.60</li>
+
+                        <li className="text-success" >42.05</li>
+
+                        <li className="text-danger" >14.80</li>
+
+                        <li className="text-danger" >92.0</li>
+
+
+                            <li className="barchart-stats-list-end-stat" >11.5</li>
+                        </div>
+
+
+
+
+                        <div className="barchart-stats-list">
+                        <li className="barchart-stats-list-year-stat">2023</li>
+
+                        <li className="text-danger" >28.20</li>
+
+                        <li className="text-success" >16.43</li>
+
+                        <li className="text-success" >58.60</li>
+
+                        <li className="text-success" >42.05</li>
+
+                        <li className="text-danger" >14.80</li>
+
+                        <li className="text-danger" >92.0</li>
+
+
+                            <li className="barchart-stats-list-end-stat" >11.5</li>
+                        </div>
+
+
+
+
+
+                        <div className="barchart-stats-list">
+                        <li className="barchart-stats-list-year-stat">2023</li>
+
+                        <li className="text-danger" >28.20</li>
+
+                        <li className="text-success" >16.43</li>
+
+                        <li className="text-success" >58.60</li>
+
+                        <li className="text-success" >42.05</li>
+
+                        <li className="text-danger" >14.80</li>
+
+                        <li className="text-danger" >92.0</li>
+
+
+                            <li className="barchart-stats-list-end-stat" >11.5</li>
+                        </div>
+
+
+
+
+                        <div className="barchart-stats-list">
+                        <li className="barchart-stats-list-year-stat">2023</li>
+
+                        <li className="text-danger" >28.20</li>
+
+                        <li className="text-success" >16.43</li>
+
+                        <li className="text-success" >58.60</li>
+
+                        <li className="text-success" >42.05</li>
+
+                        <li className="text-danger" >14.80</li>
+
+                        <li className="text-danger" >92.0</li>
+
+
+                            <li className="barchart-stats-list-end-stat" >11.5</li>
+                        </div>
+
+
+                          
+                                <input
+                                    type="checkbox"
+                                    className="bar-chart-stat-input-input-for-label"
+                                    id="bar-chart-stat-input-input-for-label"
+                                    checked={isChecked}
+                                    onChange={handleCheckboxChange}
+                                />
+                          <label className='bar-chart-stat-label' htmlFor="bar-chart-stat-input"><i class="bi bi-arrow-down-circle-fill"></i></label>
+                     </div>
+
+
+
+                  <div className="row mt-5">
+                     <div class="col-lg-5 col-sm-12 rounded average-risk">
+                                    <div class="card-header">
+                                        <h4 class="card-title ">Average Risk <span>4</span><br/>
+                                        Score of the last 7 days</h4>
+                                        <i class="fs-2 bi bi-info-circle"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <canvas id="barChart_1"></canvas>
+                                    </div>
+                            </div>
+
+
+
+
+                            <div class="col-lg-5 ms-auto rounded col-sm-12 copiers">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Copiers</h4>
+                                      <i class="fs-2 bi bi-info-circle"></i></div>
+                                      <span>288</span>
+                                    <div class="card-body">
+                                    <canvas id="areaChart_1"></canvas>
+                                    
+                                    {/* <div class=""><span class="updating-chart">5,3,9,6,5,9,7,3,5,2,5,3,9,6,5,9,7,3,5,2</span></div> */}
+                                    </div>
+
+                            </div>
+
+
+                                <div className="bottom-stat">
+                                     <li> <p>0.91</p>  <span>Trades per Night</span></li>
+                                  <div></div>
+                                     <li> <p>7.5 Months</p>  <span>Avg Holding Time</span></li>
+                                  <div></div>
+                                     <li> <p>1-5-21</p>  <span>Active Since</span></li>
+                                   <div></div>
+                                     <li> <p>59.65%</p>  <span>Profitable Weeks</span></li>
+
+                                </div>
+                            </div>
 
                   </div>
                 </div>
@@ -699,7 +878,18 @@ const Profile = () => {
 
 
                 <div id="charts" className="tab-pane fade ">
-                charts
+               <div className="chart-container">
+
+               <div class="col-xl-12 col-lg-12">
+                                    <div class="card-header">
+                                        <h4 class="card-title">Chart</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="smil-animations" class="ct-chart ct-golden-section chartlist-chart"></div>
+                                    </div>
+                                    </div>
+
+               </div>
                 </div>
         
 

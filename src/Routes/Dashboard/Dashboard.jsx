@@ -185,18 +185,18 @@ const Dashboard = () => {
             </div>
             <ul className="metismenu" id="menu">
                 <li><Link className="has-arrow " to="/dashboard/create" aria-expanded="false">
-                <i class="bi bi-pencil-square"></i>
+                <i className="bi bi-pencil-square"></i>
                         <span className="nav-text">Create</span>
                     </Link>
                 </li>
                 <li><Link className="has-arrow " to="/dashboard/portfolio" aria-expanded="false">
-                <i class="bi bi-folder-fill"></i>
+                <i className="bi bi-folder-fill"></i>
                         <span className="nav-text">Portfolio</span>
                     </Link>
                 </li>
 
                 <li><Link className="has-arrow " to="/dashboard/profile" aria-expanded="false">
-                  <i class="bi bi-person-circle"></i>
+                  <i className="bi bi-person-circle"></i>
                         <span className="nav-text">Profile</span>
                     </Link>
                
@@ -204,14 +204,14 @@ const Dashboard = () => {
 
 
                 <li><Link className="has-arrow " to="/dashboard/invitefriends" aria-expanded="false">
-                          <i class="bi bi-people"></i>
+                          <i className="bi bi-people"></i>
                         <span className="nav-text">Invite Friends</span>
                     </Link>
                         </li>
 
             
                 <li><Link className="has-arrow " to="/dashboard/createbot" aria-expanded="false">
-                <i class="bi bi-robot"></i>
+                <i className="bi bi-robot"></i>
                         <span className="nav-text">Create a Bot</span>
                     </Link>
                 </li>
@@ -223,20 +223,20 @@ const Dashboard = () => {
                 </li>
         
                     <li><Link className="has-arrow " to="/dashboard/help" aria-expanded="false">
-                    <i class="bi bi-telephone-inbound"></i>
+                    <i className="bi bi-telephone-inbound"></i>
                         <span className="nav-text">Help and Support</span>
                     </Link>
                 </li>
 
                 <li><Link className="has-arrow " to="/dashboard/account/settings" aria-expanded="false">
-                <i class="bi bi-gear-wide-connected"></i>
+                <i className="bi bi-gear-wide-connected"></i>
                         <span className="nav-text">Settings</span>
                     </Link>
                 </li>
                 
                 <li>
                 <Link to="javascript:void(0);" className="has-arrow " data-bs-toggle="modal" data-bs-target=".logout-modal">
-                 <i class="bi bi-box-arrow-right"></i>
+                 <i className="bi bi-box-arrow-right"></i>
                   <span className="nav-text">Logout</span>
             </Link>
                 </li>

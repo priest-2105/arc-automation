@@ -452,14 +452,140 @@
     margin-left: auto;
 }
 
- 
+#bar-chart-stat-input{
+    display: none;
+}
+
+#bar-chart-stat-input:checked ~ .bar-chart-year-stats-container{
+        height: fit-content;
+        overflow:visible; 
+        transition-duration: 2.8s;
+        transition-timing-function: ease-in-out;
+}
+
+
+.bar-chart-stat-input-input-for-label{
+    display: none;
+}
+
+
+.bar-chart-stat-input-input-for-label:checked ~ label{
+    
+    transform: rotate(180deg);
+}
+
+.bar-chart-stat-label{
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    font-size: 30px;
+    color: #5D91F0;
+  
+}
+
+.bar-chart-year-stats-container{
+    transition-duration: 1.8s;
+    transition-timing-function: ease-in-out;
+    position: relative;
+    width:98%;
+    border-radius: 8px;
+    border:1px solid #5D91F0;
+    margin-left: auto;
+    margin-right: auto;
+    height:220px;
+    overflow: hidden;
+    margin-top:50px;
+    padding: 20px 0px 20px 0px;
+}
+
+.bar-chart-year-stats-container li{    
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: 40px;
+    }
+
+.barchart-stats-list{
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: rgba(93, 145, 240,0.2);
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    width:90%;
+    height:fit-content;
+    margin-bottom: 20px;
+}
+
+.barchart-stats-list:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 20px 20px 5px rgba(128, 128, 128,0.2);
+}
+
+.barchart-stats-list-year-stat{
+    margin-left: 0px!important;
+}
+
+.barchart-stats-list-end-stat{
+    margin-left:auto!important;
+}
 
 
 
 
+.average-risk{
+    background-color:rgba(93, 145, 240,0.1);
+}
+
+.average-risk span{
+    border: 3px solid #5D91F0;
+    color: #5D91F0;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0px 10px 0px 10px;
+
+}
 
 
+.copiers{
+    background-color:rgba(93, 145, 240,0.1);
+}
 
+.copiers span{    
+    color: #5D91F0;
+    font-weight: 500;
+    font-size: 30px;    
+    margin-left: 40px;
+}
+
+.bottom-stat{
+    width: 100%;
+    justify-content: space-around;
+    height: fit-content;
+    display: flex;
+    border-radius:10px ;
+    margin-top: 50px;
+    background-color:rgba(93, 145, 240,0.1);
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+}
+
+.bottom-stat p{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.bottom-stat div{
+    background-color: grey;
+    height: 80px;
+    width: 1px;
+}
+
+
+.bottom-stat span{
+    font-size: 15px;
+    font-weight: 600;
+}
 
 
 .publish-strategy{
